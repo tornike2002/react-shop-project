@@ -1,0 +1,10 @@
+.home-main_container{
+    background: url("../../assets/home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+}
+.home-main_container p {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}

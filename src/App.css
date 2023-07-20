@@ -1,7 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+/* font-family: 'Dancing Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+/* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+/* font-family: 'Sawarabi Gothic', sans-serif; */
 * {
-  padding: 0px;
+  padding: 0px !important;
   margin: 0px;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+html {
+  background-color: var(--darkbrown) !important;
+}
+:root {
+  --darkbrown: #2e2828;
+  --lightbrown: #503a3a;
+  --red: #f65151;
+  --white: #fef4f4;
+}
+
+.bgg-c {
+  background-color: var(--darkbrown);
+}
+.tt-c {
+  color: var(--lightbrown);
+}
+.pp-c {
+  color: var(--red);
 }

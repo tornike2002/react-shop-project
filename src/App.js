@@ -1,11 +1,17 @@
 import React from "react";
+import NoPage from "./components/ErrorPage/NoPage";
+import Home from "./components/pages/Home";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="*" element={<noPage />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.nav-title-wrapper a h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: var(--red);
+}
+
+.nav-links-contianer{
+    font-family: 'Courgette', cursive;
+    color: var(--white);
+}
+.nav-links-contianer a{
+    font-size: larger;
+    color: var(--red);
+}
+nav{
+    background-color: var(--darkbrown);
+}
