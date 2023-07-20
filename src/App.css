@@ -30,3 +30,7 @@ html {
 .pp-c {
   color: var(--red);
 }
+
+h1{
+   font-family: "Courgette", cursive;
+}

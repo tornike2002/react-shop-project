@@ -1,6 +1,9 @@
 import React from "react";
 import NavBar from "../NavBar";
 import "./Home.css";
+import CarouselComp from "./home-components/Carousel";
+import Popular from "./home-components/Popular";
+
 const Home = () => {
   return (
     <div className="bgg-c">
@@ -15,7 +18,12 @@ const Home = () => {
       </div>
       {/* carousel */}
       <section>
-        
+        <CarouselComp />
+      </section>
+      <section className="container d-flex flex-column justify-content-center align-items-center">
+        <h1 className="pp-c mt-5">Check Out New Products</h1>
+        <hr className="w-100 text-danger mb-4" />
+        <Popular />
       </section>
     </div>
   );
