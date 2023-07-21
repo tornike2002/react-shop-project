@@ -6,7 +6,7 @@ const NavBar = () => {
     <Fragment>
       <nav>
         <div className="nav-bar-container container d-flex align-items-center justify-content-between">
-          <div className="nav-title-wrapper ">
+          <div className="nav-title-wrapper">
             <Link>
               <h1 to="/">Amazon</h1>
             </Link>

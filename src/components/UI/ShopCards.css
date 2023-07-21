@@ -1,0 +1,31 @@
+.shop-cards-container {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 500ms ease;
+  overflow: hidden;
+}
+.shop-cards-container img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.shop-cards-text h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.shop-cards-text h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.cards-helper h3, h4{
+    font-size: 18px;
+}
+
+.shop-cards-container:hover {
+  transform: scale(1.05);
+}

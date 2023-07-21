@@ -3,6 +3,7 @@ import NavBar from "../NavBar";
 import "./Home.css";
 import CarouselComp from "./home-components/Carousel";
 import Popular from "./home-components/Popular";
+import Footer from "../Footer";
 
 const Home = () => {
   return (
@@ -20,10 +21,13 @@ const Home = () => {
       <section>
         <CarouselComp />
       </section>
-      <section className="container d-flex flex-column justify-content-center align-items-center">
-        <h1 className="pp-c mt-5">Check Out New Products</h1>
+      <section className="container d-flex flex-column justify-content-center align-items-center mb-3">
+        <h1 className="pp-c mt-5 text-center">Check Out New Products</h1>
         <hr className="w-100 text-danger mb-4" />
         <Popular />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );

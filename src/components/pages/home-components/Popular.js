@@ -14,7 +14,7 @@ const Popular = (props) => {
     <div>
       <div className="row">
         <div className="col">
-          <div className="helper-div d-flex flex-wrap">
+          <div className="helper-div d-flex flex-wrap gap-3">
             {data.map((data) => (
               <div key={data.id}>
                 <Cards

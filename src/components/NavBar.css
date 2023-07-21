@@ -21,3 +21,9 @@ nav{
         display: none;
     }
 }
+
+@media screen and (max-width: 578px) {
+    .nav-title-wrapper{
+    margin-left: 10px;
+    }
+}
