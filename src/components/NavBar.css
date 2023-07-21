@@ -12,6 +12,10 @@
     font-size: larger;
     color: var(--red);
 }
+.cart-amount-tracker{
+    top: -15px;
+    right: -13px;
+}
 nav{
     background-color: var(--darkbrown);
 }

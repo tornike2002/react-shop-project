@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Footer from "../Footer";
 import NavBar from "../NavBar";
-import Cards from "../UI/Cards";
 import ShopCards from "../UI/ShopCards";
+import { useSelector } from "react-redux";
 import "./Shop.css";
 const Shop = (props) => {
+  const {amount} = useSelector((store) => store.card)
   const [data, setData] = useState([]);
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products`)
