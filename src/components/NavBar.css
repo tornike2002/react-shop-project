@@ -12,9 +12,9 @@
     font-size: larger;
     color: var(--red);
 }
-.cart-amount-tracker{
-    top: -15px;
-    right: -13px;
+.burg-men {
+    display: none;
+    margin-right: 50px;
 }
 nav{
     background-color: var(--darkbrown);
@@ -22,6 +22,19 @@ nav{
 
 @media screen and (max-width: 768px) {
     .nav-links-contianer a{
+        display: none;
+    }
+    .burg-men {
+        display: inline !important;
+    }
+    .burg-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .burg-men-diss{
         display: none;
     }
 }

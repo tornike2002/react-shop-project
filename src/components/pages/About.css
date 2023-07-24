@@ -1,0 +1,7 @@
+.about-main-container{
+    background: url("../../assets/car2.jpg");
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

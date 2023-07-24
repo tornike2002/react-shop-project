@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ShopCards.css";
-const ShopCards = (props) => {
 
+const ShopCards = (props) => {
+ 
   return (
     <div className="shop-cards-container d-flex flex-column justify-content-center align-items-center">
       <img src={props.img} />

@@ -4,6 +4,7 @@ import "./Home.css";
 import CarouselComp from "./home-components/Carousel";
 import Popular from "./home-components/Popular";
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -24,7 +25,10 @@ const Home = () => {
       <section className="container d-flex flex-column justify-content-center align-items-center mb-3">
         <h1 className="pp-c mt-5 text-center">Check Out New Products</h1>
         <hr className="w-100 text-danger mb-4" />
-        <Popular />
+
+        <Link to="/shop">
+          <Popular />
+        </Link>
       </section>
       <section>
         <Footer />
